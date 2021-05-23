@@ -14,7 +14,7 @@ python3 importer.py --xml_path XML_PATH --profile_name PROFILE_NAME
                    [--server_url SERVER_URL]
 ```
 
-To get further usage infomration, execute the following command.
+To get further usage information, execute the following command.
 ```bash
 python3 importer.py -h
 ```
