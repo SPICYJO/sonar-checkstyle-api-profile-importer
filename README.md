@@ -6,6 +6,8 @@ This script is supposed to work as a workaround for issue [checkstyle/sonar-chec
 
 It communicates with Sonarqube server via web API for 2 times for every rule, so it could take some time to finish importing profile. It first **define custom rules** for each template rule. Then, it **creates a new profile** that will contain your check rules. Once the profile is created, it **activates** newly defined custom rules and non-template rules for the profile.
 
+I tested on my computer(macOS Big Sur Version 11.2.3, Python 3.6.8) using the example xml file and it worked properly. If there is any issue, please feel free to create an issue.
+
 ## Usage
 To import checkstyle configuration xml file into Sonarqube profile, execute the following command.
 ```bash
@@ -19,5 +21,5 @@ To get further usage information, execute the following command.
 python3 importer.py -h
 ```
 
-## Feedbacks / Contributions
-Every feedback or contribution is welcome! Please feel free to create a comment, feedback or pull request.
+## Feedbacks / Contributions / Issue Reporting
+Every feedback or contribution is welcome! Please feel free to create a comment, feedback, issue or pull request.
